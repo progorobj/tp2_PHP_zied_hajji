@@ -1,0 +1,44 @@
+section{
+    display: flex;
+    flex-direction: row;
+
+}
+header{
+
+    font-weight: bold;
+}
+.classtext{
+
+    background-color: lightgreen;
+    flex:80%;
+    margin:5px;
+
+}
+.identPass{
+
+    border:solid 1px black;
+    padding: 5px;
+    height: auto;
+    flex:auto;
+    margin: 5px;
+
+}
+footer{
+
+    font-size: small;
+    color: gray;
+    margin-bottom: 5px;
+
+}
+.deconnexionClass{
+    border: 1px solid black;
+    flex: auto;
+    margin: 5px;
+    padding: 5px;
+
+
+}
+textarea{
+
+    flex: auto;
+}
